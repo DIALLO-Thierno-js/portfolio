@@ -45,7 +45,7 @@ export class ProjectSchema extends BaseModel {
   declare githubUrl: string | null
   @column({ isPrimary: true })
   declare id: number
-  @column() 
+  @column()
   declare imageUrl: string | null
   @column()
   declare technologies: any | null
